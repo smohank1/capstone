@@ -13,7 +13,7 @@ app = Flask(__name__)
 
 # Constants
 MODEL_DIR = 'model'
-MODEL_PATH = os.path.join(MODEL_DIR, 'lung_cancer_model.h5')
+MODEL_PATH = os.path.join(MODEL_DIR, 'capstone.h5')
 GOOGLE_DRIVE_URL = 'https://drive.google.com/uc?id=1TleZ9aRZdi7kABt9LMSxeT_O0dsX-Pmj'
 
 def download_model():
